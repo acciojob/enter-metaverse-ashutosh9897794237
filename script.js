@@ -1,5 +1,6 @@
 //your JS code here. If required.
- function changefontsize {
- 	const bold = document.getElementById("status");
-	 bold.style.fontSize = "200px"
+ function changefontsize() {
+	 let p = document.getElementById("status");
+	p.innerHTML="<h1>Entered Metaverse</h1>";
  }
+document.getElementById("enterBtn").addEventListener("click",changefontsize);
