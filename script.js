@@ -1,5 +1,5 @@
 //your JS code here. If required.
- function fontsize {
+ function changefontsize {
  	const bold = document.getElementById("status");
-	 bold.style.fontsize = "50px"
+	 bold.style.fontSize = "200px"
  }
